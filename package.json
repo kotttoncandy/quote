@@ -1,0 +1,16 @@
+{
+  "name": "quote-",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "esbuild index.js --bundle > bundle.js",
+    "dev": "nodemon --exec 'npm run build' --ignore 'bundle.js'"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "groq-sdk": "^0.9.1",
+    "process": "^0.11.10"
+  }
+}
